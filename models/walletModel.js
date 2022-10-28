@@ -6,11 +6,6 @@ const { DataTypes } = Sequelize;
 const wallet = db.define(  
   "wallet",  
   { 
-    id: {  
-      type: DataTypes.INTEGER,  
-      primaryKey: true  
-    }, 
-
     useruid: {  
       type: DataTypes.INTEGER,  
     },  

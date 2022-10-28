@@ -44,7 +44,7 @@ export const getOneWallet = async (req, res) => {
   export const deleteWallet = async (req, res) => {
   let id = req.params.id;
 
-  await Wallet.destroy({ where: { id: id } });
+  await WalletModel.destroy({ where: { id: id } });
 
   res.status(200).send("Wallet is deleted !");
 };

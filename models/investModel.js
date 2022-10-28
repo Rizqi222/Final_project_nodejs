@@ -6,10 +6,7 @@ const { DataTypes } = Sequelize;
 const invest = db.define(  
   "invest",  
   { 
-    id: {  
-        type: DataTypes.INTEGER,  
-        primaryKey: true  
-      }, 
+   
    
     amount: {  
       type: DataTypes.INTEGER,  

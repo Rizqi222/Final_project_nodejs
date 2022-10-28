@@ -7,8 +7,8 @@ const Users = db.define(
   "user",  
   { 
     id: {  
-      type: DataTypes.INTEGER,  
-      primaryKey: true  
+      type: DataTypes.INTEGER,
+      primaryKey : true,
     }, 
     name: {  
       type: DataTypes.TEXT,  
